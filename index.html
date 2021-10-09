@@ -290,10 +290,6 @@ $(document).ready(function() {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-.btn__wrapper .trigger:last-child {
-  padding: 0px 20px;
-  margin-left: 15px;
-}
 
 .modal {
     position: fixed;
@@ -335,7 +331,8 @@ $(document).ready(function() {
   }
   .trigger {
     width: 100% !important;
-    font-size: 14px;
+    font-size: 12px !important;
+    /* height: 40px !important; */
   }
 }
 .modal-body {
@@ -402,7 +399,7 @@ $(document).ready(function() {
 <img class='tn-atom__img' src='https://static.tildacdn.com/tild3131-3430-4233-a337-313739323033/home_tagline-01.svg' imgfield='tn_img_1578337309819'>
 <div class="btn__wrapper">
   <button class="trigger">Connect wallet</button>
-  <button class="trigger">Connect ledger wallet</button>
+  <button class="trigger" style="margin-left: 20px;">Connect ledger wallet</button>
   <div class="modal">
     <div class="modal-content">
       <div class="modal-header">
